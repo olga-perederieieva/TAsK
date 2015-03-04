@@ -68,6 +68,9 @@ recompile code if necessary by typing in terminal: make clean; make.
 **Note:** If double type is used instead of long double, algorithms might fail to find highly precise
 solutions.
 
+## Documentation
+API documentation can be found in Docs/html/index.html.
+
 ## Usage
 
 In order to run the TAsK software one should create a text file with various run parameters first.
