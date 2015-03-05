@@ -130,9 +130,9 @@ Benoit Mulocher (bi-directional bi-objective label-setting algorithm)</dd></dl>
 <p>Instructions:</p><ul>
 <li>Download archive with source code.</li>
 <li>Unzip.</li>
-<li>Open terminal, go to the folder with source code and type: make.</li>
+<li>Open terminal, go to the folder with source code (src/) and type: make.</li>
 </ul>
-<p>By default extended floating point precision is used (long double type). In order to use double type, comment line CPPFLAGS += -DUSE_EXTENDED_PRECISION in <a href="../../Makefile">Makefile</a> and recompile code if necessary by typing in terminal: make clean; make.</p>
+<p>By default extended floating point precision is used (long double type). In order to use double type, comment line CPPFLAGS += -DUSE_EXTENDED_PRECISION in Makefile and recompile code if necessary by typing in terminal: make clean; make.</p>
 <dl class="section note"><dt>Note</dt><dd>If double type is used instead of long double, algorithms might fail to find highly precise solutions.</dd></dl>
 <h2>Usage</h2>
 <p>In order to run the TAsK software one should create a text file with various run parameters first.</p>
@@ -143,7 +143,7 @@ Benoit Mulocher (bi-directional bi-objective label-setting algorithm)</dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>All field names and possible values are case-sensitive.</dd></dl>
 <p>In order to run code with <a href="../../input.params">input.params</a>:</p><ul>
 <li>Open terminal and go to the folder with source code.</li>
-<li>Type in terminal: ./ta input.params.</li>
+<li>Type in terminal: ./ta ../input.params.</li>
 </ul>
 <p>File <a href="../../input.params">input.params</a> allows to solve the additive traffic assignment problem with the Algorithm B (for details, see <a class="el" href="citelist.html#CITEREF_Dial_2006">[7]</a>) based on quadratic approximation for the SiouxFalls instance.</p>
 <p>File <a href="../../inputNonAdd.params">inputNonAdd.params</a> allows to solve the non-additive traffic assignment problem with the path equilibration algorithm (for details, see <a class="el" href="citelist.html#CITEREF_Florian1995">[8]</a>) based on Newton step for the SiouxFalls instance.</p>
@@ -313,7 +313,7 @@ Benoit Mulocher (bi-directional bi-objective label-setting algorithm)</dd></dl>
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Mar 5 2015 15:49:04 for Traffic Assignment frameworK (TAsK) by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Mar 5 2015 16:54:34 for Traffic Assignment frameworK (TAsK) by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>

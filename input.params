@@ -3,8 +3,8 @@
   with the algorithm B based on quadratic approximation.
 */
 
-<NETWORK>: {Data/SiouxFalls_net.txt}
-<OD_MATRIX>: {Data/SiouxFalls_trips.txt}
+<NETWORK>: {../Data/SiouxFalls_net.txt}
+<OD_MATRIX>: {../Data/SiouxFalls_trips.txt}
 
 <WRITE_RND_TOLLS_TO_FILE>: {}
 <RND_TOLLS_PROBABILITY>: {}

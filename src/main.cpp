@@ -58,11 +58,11 @@
 	Instructions:
 	- Download archive with source code.
 	- Unzip.
-	- Open terminal, go to the folder with source code and type: make.
+	- Open terminal, go to the folder with source code (src/) and type: make.
 
 	By default extended floating point precision is used (long double type).
 	In order to use double type, comment line
-	CPPFLAGS += -DUSE_EXTENDED_PRECISION in <a href="../../Makefile">Makefile</a> and
+	CPPFLAGS += -DUSE_EXTENDED_PRECISION in Makefile and
 	recompile code if necessary by typing in terminal: make clean; make.
 
 	\note If double type is used instead of long double, algorithms might fail to find highly precise
@@ -93,7 +93,7 @@
 
 	In order to run code with <a href="../../input.params">input.params</a>:
 	- Open terminal and go to the folder with source code.
-	- Type in terminal: ./ta input.params.
+	- Type in terminal: ./ta ../input.params.
 
 	File <a href="../../input.params">input.params</a> allows to solve the additive
 	traffic assignment problem with the Algorithm B (for details, see \cite Dial_2006) based 
