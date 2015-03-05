@@ -1,0 +1,12 @@
+<map id="ShortestPath" name="ShortestPath">
+<area shape="rect" id="node2" href="$classAstar.html" title="This class implements A* shortest path for point&#45;to&#45;point case, and Dijkstra for origin case..." alt="" coords="5,219,203,560"/>
+<area shape="rect" id="node4" href="$classLabelCorrectingAl.html" title="This class implements the label correcting algorithm for finding shortest paths from a given origin n..." alt="" coords="233,285,385,494"/>
+<area shape="rect" id="node6" href="$classLazyShortestPath.html" title="Lazy shortest path for single&#45;objective shortest path algorithms. " alt="" coords="411,285,564,494"/>
+<area shape="rect" id="node7" href="$classNonAddShortestPath.html" title="This class implements non&#45;additive shortest path algorithm. " alt="" coords="589,233,812,545"/>
+<area shape="rect" id="node10" href="$classShortestPathWithRandomReturn.html" title="Implements randomised flow update strategy for path&#45;based algorithms. " alt="" coords="895,292,1136,487"/>
+<area shape="rect" id="node3" href="$classAstarWithoutZoneSkip.html" title="Performs usual A* algorithm without skipping zone nodes. " alt="" coords="8,637,189,744"/>
+<area shape="rect" id="node5" href="$classLabelCorrectingAlWithoutZonesCheck.html" title="Implements usual one&#45;source label&#45;setting when shortest paths are allowed to go through zone nodes..." alt="" coords="214,615,404,766"/>
+<area shape="rect" id="node8" href="$classNonAddShortestPathForAON.html" title="Implements non&#45;additive shortest path for all&#45;or&#45;nothing. " alt="" coords="429,608,652,773"/>
+<area shape="rect" id="node9" href="$classNonAddShortestPathWithLazyBSP.html" title="Non&#45;additive lazy shortest path. " alt="" coords="678,615,932,766"/>
+<area shape="rect" id="node11" href="$classShortestPathWithRandomReturnWithFixedProbability.html" title="Randomised flow update for the case when probability of calculating point&#45;to&#45;point shortest path is f..." alt="" coords="957,615,1189,766"/>
+</map>

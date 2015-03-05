@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classShortestPath.html" title="This is an abstract class that defines the interface for single&#45;objective shortest&#45;path algorithms..." alt="" coords="5,115,104,141"/>
+<area shape="rect" id="node2" href="$classAstar.html" title="This class implements A* shortest path for point&#45;to&#45;point case, and Dijkstra for origin case..." alt="" coords="232,9,285,36"/>
+<area shape="rect" id="node4" href="$classLabelCorrectingAl.html" title="This class implements the label correcting algorithm for finding shortest paths from a given origin n..." alt="" coords="196,64,321,91"/>
+<area shape="rect" id="node6" href="$classLazyShortestPath.html" title="Lazy shortest path for single&#45;objective shortest path algorithms. " alt="" coords="195,115,322,141"/>
+<area shape="rect" id="node7" href="$classNonAddShortestPath.html" title="This class implements non&#45;additive shortest path algorithm. " alt="" coords="186,165,331,192"/>
+<area shape="rect" id="node10" href="$classShortestPathWithRandomReturn.html" title="Implements randomised flow update strategy for path&#45;based algorithms. " alt="" coords="152,224,365,251"/>
+<area shape="rect" id="node3" href="$classAstarWithoutZoneSkip.html" title="Performs usual A* algorithm without skipping zone nodes. " alt="" coords="450,5,603,32"/>
+<area shape="rect" id="node5" href="$classLabelCorrectingAlWithoutZonesCheck.html" title="Implements usual one&#45;source label&#45;setting when shortest paths are allowed to go through zone nodes..." alt="" coords="441,57,612,98"/>
+<area shape="rect" id="node8" href="$classNonAddShortestPathForAON.html" title="Implements non&#45;additive shortest path for all&#45;or&#45;nothing. " alt="" coords="430,123,623,149"/>
+<area shape="rect" id="node9" href="$classNonAddShortestPathWithLazyBSP.html" title="Non&#45;additive lazy shortest path. " alt="" coords="413,173,640,200"/>
+<area shape="rect" id="node11" href="$classShortestPathWithRandomReturnWithFixedProbability.html" title="Randomised flow update for the case when probability of calculating point&#45;to&#45;point shortest path is f..." alt="" coords="420,225,633,266"/>
+</map>

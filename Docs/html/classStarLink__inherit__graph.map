@@ -1,0 +1,5 @@
+<map id="StarLink" name="StarLink">
+<area shape="rect" id="node2" href="$classStarLinkTolls.html" title="Implements a special type of link that instead of travel time returns constant link toll..." alt="" coords="4,395,133,531"/>
+<area shape="rect" id="node3" href="$classStarLinkWithReverseLink.html" title="Implements a special type of link that stores pointer to original link. " alt="" coords="158,402,356,523"/>
+<area shape="rect" id="node4" href="$classStarLinkWithTolls.html" title="Implements a special type of link that instead of travel time returns constant link toll..." alt="" coords="181,579,333,685"/>
+</map>

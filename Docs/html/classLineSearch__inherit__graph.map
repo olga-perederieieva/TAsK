@@ -1,0 +1,5 @@
+<map id="LineSearch" name="LineSearch">
+<area shape="rect" id="node2" href="$classArmijo.html" title="This class implements Armijo&#45;like rule to calculate the step size. " alt="" coords="5,177,125,298"/>
+<area shape="rect" id="node3" href="$classBisection.html" title="This class implements bisection for step size calculation. " alt="" coords="149,177,264,298"/>
+<area shape="rect" id="node4" href="$classQuadApp.html" title="This class implements quadratic approximation for step size calculation. " alt="" coords="288,184,392,291"/>
+</map>

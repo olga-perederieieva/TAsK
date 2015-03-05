@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classDescDirectionPath.html" title="This class is a base class for different directions of descent implemented in path&#45;based algorithms..." alt="" coords="6,107,138,133"/>
+<area shape="rect" id="node2" href="$classDescDirectionPathGP.html" title="This class implements direction of descent of gradient projection algorithm. " alt="" coords="198,5,349,32"/>
+<area shape="rect" id="node3" href="$classDescDirectionPathISP.html" title="This class implements direction of descent of improved social pressure algorithm. ..." alt="" coords="196,56,351,83"/>
+<area shape="rect" id="node4" href="$classDescDirectionPathPE.html" title="This class implements the direction of descent of path equilibration algorithm. " alt="" coords="198,107,349,133"/>
+<area shape="rect" id="node5" href="$classDescDirectionPathPG.html" title="This class implements direction of descent of projected gradient algorithm. " alt="" coords="198,157,349,184"/>
+<area shape="rect" id="node6" href="$classDescDirectionPathScaled.html" title="This class implements a scaled direction of descent for path&#45;based algorithms. " alt="" coords="187,208,359,235"/>
+</map>

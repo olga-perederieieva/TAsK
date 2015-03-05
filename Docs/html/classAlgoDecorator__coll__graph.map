@@ -1,0 +1,6 @@
+<map id="AlgoDecorator" name="AlgoDecorator">
+<area shape="rect" id="node2" href="$classAlgoDecoratorBase.html" title="Base class for algorithm decorators. Defines common methods for derived classes. " alt="" coords="5,222,168,373"/>
+<area shape="rect" id="node3" href="$classDecoratedEqAlgo.html" title="This class is a base class for decorators of EqAlgo. " alt="" coords="11,6,175,157"/>
+<area shape="rect" id="node4" href="$classAddHookStoreOut.html" title="This class stores convergence information into internal data structure and is able to print it to the..." alt="" coords="193,229,348,365"/>
+<area shape="rect" id="node5" href="$classAddHook.html" title="A base class that is used in EqAlgo class to perform some operations with convergence information ava..." alt="" coords="216,28,325,135"/>
+</map>

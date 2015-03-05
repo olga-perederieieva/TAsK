@@ -1,0 +1,5 @@
+<map id="LabelSettingBSPBase" name="LabelSettingBSPBase">
+<area shape="rect" id="node2" href="$classLabelSettingOneSourceBSP.html" title="Concrete implementation of the one&#45;source bi&#45;objective label&#45;setting algorithm. " alt="" coords="5,447,219,553"/>
+<area shape="rect" id="node3" href="$classLabelSettingPoint2PointBSP.html" title="Concrete implementation of point&#45;to&#45;point bi&#45;objective label&#45;setting algorithm. " alt="" coords="244,366,460,634"/>
+<area shape="rect" id="node4" href="$classBiDirectionalPoint2PointBSP.html" title="Bi&#45;directional bi&#45;objective point&#45;to&#45;point shortest path. " alt="" coords="243,683,461,1039"/>
+</map>

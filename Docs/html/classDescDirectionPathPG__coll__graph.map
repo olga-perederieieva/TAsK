@@ -1,0 +1,5 @@
+<map id="DescDirectionPathPG" name="DescDirectionPathPG">
+<area shape="rect" id="node2" href="$classDescDirectionPath.html" title="This class is a base class for different directions of descent implemented in path&#45;based algorithms..." alt="" coords="8,555,181,720"/>
+<area shape="rect" id="node3" href="$classPathAndDirection.html" title="This class is a basic element used in DescDirectionPath. It represents a pair of two values: Path and..." alt="" coords="19,339,171,490"/>
+<area shape="rect" id="node4" href="$classPath.html" title="This class represents a path. " alt="" coords="30,6,159,274"/>
+</map>

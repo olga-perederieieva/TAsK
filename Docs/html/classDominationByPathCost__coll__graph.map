@@ -1,0 +1,6 @@
+<map id="DominationByPathCost" name="DominationByPathCost">
+<area shape="rect" id="node2" href="$classDominationByPathCostBase.html" title="Base class for path cost domination rule. " alt="" coords="5,294,221,445"/>
+<area shape="rect" id="node3" href="$classNonAdditivePC.html" title="This class implements non&#45;additive path cost calculation. " alt="" coords="246,301,385,437"/>
+<area shape="rect" id="node4" href="$classPathCost.html" title="This class is an interface for path cost calculation. " alt="" coords="166,64,271,171"/>
+<area shape="rect" id="node5" href="$classIndiffCurveContainer.html" title="This class is a container of scalarization functions. It is responsible for their deallocation..." alt="" coords="295,5,531,229"/>
+</map>

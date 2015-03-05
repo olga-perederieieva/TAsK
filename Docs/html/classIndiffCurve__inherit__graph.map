@@ -1,0 +1,6 @@
+<map id="IndiffCurve" name="IndiffCurve">
+<area shape="rect" id="node2" href="$classConcaveIndiffCurve.html" title="Implements convex scalarization function. " alt="" coords="5,278,171,429"/>
+<area shape="rect" id="node3" href="$classConvexIndiffCurve.html" title="Implemenats convex scalarization function. " alt="" coords="195,278,353,429"/>
+<area shape="rect" id="node4" href="$classLinearIndiffCurve.html" title="Implemenats linear scalarization function. " alt="" coords="379,278,527,429"/>
+<area shape="rect" id="node5" href="$classPieceWiseLinearIndiffCurve.html" title="This class implements piecewise&#45;linear scalarization function. " alt="" coords="551,219,763,487"/>
+</map>

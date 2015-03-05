@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classNetOutput.html" title="This calss is a base class for the classes that perform some output work on StarNetwork object (creat..." alt="" coords="5,109,88,136"/>
+<area shape="rect" id="node2" href="$classKMLNetOutput.html" title="KML for network performance analysis (colour&#45;coded based on the ratio flow/capacity) ..." alt="" coords="139,81,248,108"/>
+<area shape="rect" id="node6" href="$classLatexNetOutput.html" title="This class is responsible for creation of latex files to plot link flows. Node coordinates must be kn..." alt="" coords="136,136,251,163"/>
+<area shape="rect" id="node3" href="$classDiffKMLNetOutput.html" title="This class implements KML files that describe link flow differences between solutions (usually two so..." alt="" coords="332,5,463,32"/>
+<area shape="rect" id="node4" href="$classKMLPlotTolls.html" title="This class creates kml&#45;file where tolled links are highlighted in red. " alt="" coords="347,56,447,83"/>
+<area shape="rect" id="node5" href="$classKMLSelectLink.html" title="Implements creation of kml&#45;files for select link analysis. " alt="" coords="342,107,453,133"/>
+<area shape="rect" id="node7" href="$classLatexNetOutputLinksExploredInBSP.html" title="Implements creation of latex files to display links explored by bi&#45;objective shortest path algorithm..." alt="" coords="299,158,495,199"/>
+</map>

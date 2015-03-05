@@ -1,0 +1,19 @@
+\form#0:$t(x) = freeFlow*(1 + B*\left(\frac{x}{capacity}\right)^{power})$
+\form#1:$f(toll) = a * toll^{1/3} + time1$
+\form#2:$a = (time2 - time1) / toll2^{1/3}$
+\form#3:$f(toll) = a * toll^{1/3} + b$
+\form#4:$ c_a(f_a) = param$
+\form#5:$f(toll) = a * toll^{3} + time1$
+\form#6:$a = (time2 - time1) / toll2^{3}$
+\form#7:$f(toll) = a * toll^{3} + b$
+\form#8:$ 10 \cdot 10^{-iter}$
+\form#9:$ iter $
+\form#10:$\pi$
+\form#11:$f(toll) = a * toll + time1$
+\form#12:$a = (time2 - time1) / toll2$
+\form#13:$f(toll) = a * toll + b$
+\form#14:$ RGAP = rGap = 1 - \frac{\sum_{p \in Z}D_p \cdot C_{min}^p}{\sum_{a \in A} f_a \cdot c_a}$
+\form#15:$C_{min}^p = \min_{k \in K_p} C_k $
+\form#16:$ p $
+\form#17:$ \leq 10^{-25}$
+\form#18:$0.1 + 1/iter$

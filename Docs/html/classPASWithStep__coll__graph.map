@@ -1,0 +1,6 @@
+<map id="PASWithStep" name="PASWithStep">
+<area shape="rect" id="node2" href="$classPAS.html" title="This class represents pair of alternative segments (PAS). " alt="" coords="5,539,165,954"/>
+<area shape="rect" id="node3" href="$classLineSearch.html" title="This class is a base class for different line search strategies. " alt="" coords="190,686,308,807"/>
+<area shape="rect" id="node4" href="$classDerivative.html" title="This class implements calculation of directional derivative of the objective function with respect to..." alt="" coords="181,206,316,474"/>
+<area shape="rect" id="node5" href="$classLinkFncContainer.html" title="This class is a container of link cost functions. " alt="" coords="173,5,325,141"/>
+</map>

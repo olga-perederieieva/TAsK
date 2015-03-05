@@ -1,0 +1,5 @@
+<map id="BoundsCalculatorForBSPBase" name="BoundsCalculatorForBSPBase">
+<area shape="rect" id="node2" href="$classBoundsCalculatorForBSP.html" title="Implements travel time bound calculation based on zero flows. " alt="" coords="157,206,355,474"/>
+<area shape="rect" id="node3" href="$classBoundsCalculatorForBackwardNet.html" title="Implements travel time and toll bound calculation for reversed network. " alt="" coords="5,545,256,695"/>
+<area shape="rect" id="node4" href="$classBoundsCalculatorWithTimeUpdate.html" title="Implements travel time bounds based on current flows. " alt="" coords="281,523,481,717"/>
+</map>

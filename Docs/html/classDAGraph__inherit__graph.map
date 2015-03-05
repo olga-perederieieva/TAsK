@@ -1,0 +1,6 @@
+<map id="DAGraph" name="DAGraph">
+<area shape="rect" id="node2" href="$classDAGraphB.html" title="This class implements origin&#45;based algorithm B. " alt="" coords="8,755,167,965"/>
+<area shape="rect" id="node4" href="$classDAGraphLUCE.html" title="Implements origin&#45;based algorithm LUCE. " alt="" coords="192,733,332,987"/>
+<area shape="rect" id="node5" href="$classDAGraphTapas.html" title="Implements main steps of TAPAS algorithm. " alt="" coords="357,741,515,979"/>
+<area shape="rect" id="node3" href="$classDAGraphBWithStep.html" title="Implements another way of calculating step size for algorithm B based on line search. " alt="" coords="5,1035,171,1141"/>
+</map>

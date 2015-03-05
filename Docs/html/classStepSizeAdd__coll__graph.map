@@ -1,0 +1,6 @@
+<map id="StepSizeAdd" name="StepSizeAdd">
+<area shape="rect" id="node2" href="$classStepSize.html" title="This class is used in path&#45;based algorithms that use a line search in order to calculate a step size..." alt="" coords="97,726,244,847"/>
+<area shape="rect" id="node3" href="$classLineSearch.html" title="This class is a base class for different line search strategies. " alt="" coords="105,539,223,661"/>
+<area shape="rect" id="node4" href="$classDerivative.html" title="This class implements calculation of directional derivative of the objective function with respect to..." alt="" coords="13,206,148,474"/>
+<area shape="rect" id="node5" href="$classLinkFncContainer.html" title="This class is a container of link cost functions. " alt="" coords="5,5,157,141"/>
+</map>

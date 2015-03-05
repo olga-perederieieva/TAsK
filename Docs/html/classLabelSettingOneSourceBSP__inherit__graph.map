@@ -1,0 +1,4 @@
+<map id="LabelSettingOneSourceBSP" name="LabelSettingOneSourceBSP">
+<area shape="rect" id="node2" href="$classOneSourceBiObjShPath.html" title="Abstract base class that defines interface for all one&#45;source bi&#45;objective shortest path algorithms..." alt="" coords="5,101,195,222"/>
+<area shape="rect" id="node3" href="$classLabelSettingBSPBase.html" title="Abstract base class that implements main steps of the one&#45;source bi&#45;objective label&#45;setting algorithm..." alt="" coords="219,5,468,317"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="LabelSettingPoint2PointBSP" name="LabelSettingPoint2PointBSP">
+<area shape="rect" id="node2" href="$classPoint2PointBiObjShPath.html" title="Defines interface for point&#45;to&#45;point bi&#45;objective shortest path algorithms. " alt="" coords="5,580,197,716"/>
+<area shape="rect" id="node3" href="$classBiObjLabelContainer.html" title="Container of bi&#45;objective labels. " alt="" coords="17,93,185,347"/>
+<area shape="rect" id="node4" href="$classLabelSettingBSPBase.html" title="Abstract base class that implements main steps of the one&#45;source bi&#45;objective label&#45;setting algorithm..." alt="" coords="222,499,471,797"/>
+<area shape="rect" id="node5" href="$classStarNetwork.html" title="This class implements forward star graph representation. " alt="" coords="283,5,411,435"/>
+<area shape="rect" id="node6" href="$classDominationByPathCostBase.html" title="Base class for path cost domination rule. " alt="" coords="495,573,712,723"/>
+<area shape="rect" id="node7" href="$classPathsAdder.html" title="Base class for the addition of known path speed&#45;up technique for bi&#45;objective label&#45;setting algorithm..." alt="" coords="737,595,855,701"/>
+<area shape="rect" id="node8" href="$classBoundsCalculatorForBSPBase.html" title="Defines interface for other bounds calculator, implements the case when no bounds are calculated..." alt="" coords="880,573,1109,723"/>
+</map>

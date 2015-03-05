@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classStarLink.html" title="This class is a basic element of StarNetwork. It represents a link of the graph. " alt="" coords="6,31,77,57"/>
+<area shape="rect" id="node2" href="$classStarLinkTolls.html" title="Implements a special type of link that instead of travel time returns constant link toll..." alt="" coords="161,5,260,32"/>
+<area shape="rect" id="node3" href="$classStarLinkWithReverseLink.html" title="Implements a special type of link that stores pointer to original link. " alt="" coords="125,56,296,83"/>
+<area shape="rect" id="node4" href="$classStarLinkWithTolls.html" title="Implements a special type of link that instead of travel time returns constant link toll..." alt="" coords="344,56,469,83"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classInitialiseSolution.html" title="Abstract class that defines methods to initialise different container objects used in equilibration a..." alt="" coords="5,56,123,83"/>
+<area shape="rect" id="node2" href="$classLinkFlows.html" title="This class implements basic operations needed for link&#45;based algorithms and Frank&#45;Wolfe algorithm..." alt="" coords="171,5,253,32"/>
+<area shape="rect" id="node5" href="$classOriginSet.html" title="This class represents a container for OriginBush objects. " alt="" coords="174,56,250,83"/>
+<area shape="rect" id="node6" href="$classPathSet.html" title="This class represents a container for ODSet objects. " alt="" coords="177,107,247,133"/>
+<area shape="rect" id="node3" href="$classLinkFlowsCFW.html" title="This class implements conjugate Frank&#45;Wolf algorithm. " alt="" coords="301,5,413,32"/>
+<area shape="rect" id="node4" href="$classLinkFlowsBFW.html" title="This class implements bi&#45;conjugate Frank&#45;Wolfe algorithm. " alt="" coords="462,5,573,32"/>
+</map>

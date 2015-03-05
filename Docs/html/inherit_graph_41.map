@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classPAS.html" title="This class represents pair of alternative segments (PAS). " alt="" coords="6,5,55,32"/>
+<area shape="rect" id="node2" href="$classPASWithStep.html" title="This class extends PAS class by adding the possibility to calculate flow shift through a line search..." alt="" coords="105,5,207,32"/>
+</map>

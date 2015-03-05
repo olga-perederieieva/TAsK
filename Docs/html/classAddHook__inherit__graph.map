@@ -1,0 +1,5 @@
+<map id="AddHook" name="AddHook">
+<area shape="rect" id="node2" href="$classAddHookScreenOut.html" title="This class is designed to print convergence information on the screen after each iteration of the alg..." alt="" coords="5,175,171,281"/>
+<area shape="rect" id="node4" href="$classAddHookStoreOut.html" title="This class stores convergence information into internal data structure and is able to print it to the..." alt="" coords="195,160,351,296"/>
+<area shape="rect" id="node3" href="$classAddHookScreenAndStore.html" title="This class is designed to show convergence information on screen and store it in order to print to fi..." alt="" coords="81,344,279,451"/>
+</map>

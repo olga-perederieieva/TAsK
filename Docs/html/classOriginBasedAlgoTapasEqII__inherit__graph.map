@@ -1,0 +1,6 @@
+<map id="OriginBasedAlgoTapasEqII" name="OriginBasedAlgoTapasEqII">
+<area shape="rect" id="node2" href="$classOriginBasedAlgoTapas.html" title="This class extends OriginBasedAlgo by adding functionality required by TAPAS. " alt="" coords="17,736,199,843"/>
+<area shape="rect" id="node3" href="$classOriginBasedAlgo.html" title="This class implements main steps of the framework for origin&#45;based algorithms. " alt="" coords="31,537,184,687"/>
+<area shape="rect" id="node4" href="$classEqAlgo.html" title="This class is a base class for all traffic assignment algorithms. " alt="" coords="26,205,189,488"/>
+<area shape="rect" id="node5" href="$classDecoratedEqAlgo.html" title="This class is a base class for decorators of EqAlgo. " alt="" coords="26,6,189,157"/>
+</map>

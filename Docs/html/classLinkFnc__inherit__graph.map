@@ -1,0 +1,5 @@
+<map id="LinkFnc" name="LinkFnc">
+<area shape="rect" id="node2" href="$classBprFnc.html" title="This class implements BPR link cost function. " alt="" coords="5,307,208,575"/>
+<area shape="rect" id="node3" href="$classConstFnc.html" title="This class implements constant link cost function. " alt="" coords="232,344,435,539"/>
+<area shape="rect" id="node4" href="$classLinearFnc.html" title="This class implements linear link cost function. " alt="" coords="459,344,661,539"/>
+</map>

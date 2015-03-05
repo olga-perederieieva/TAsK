@@ -1,0 +1,5 @@
+<map id="PathsAdder" name="PathsAdder">
+<area shape="rect" id="node2" href="$classCurrentPathsAdder.html" title="Implements addition of known paths techniques for the case of adding all paths from the set of paths..." alt="" coords="5,160,165,296"/>
+<area shape="rect" id="node4" href="$classNoPathsAdder.html" title="Implements a situation when no paths are added to the destination node for bi&#45;objective label&#45;setting..." alt="" coords="190,175,324,281"/>
+<area shape="rect" id="node3" href="$classShortestPathAdder.html" title="Implements addition of known paths techniques for the case of adding one paths with minimal non&#45;addit..." alt="" coords="5,344,164,451"/>
+</map>

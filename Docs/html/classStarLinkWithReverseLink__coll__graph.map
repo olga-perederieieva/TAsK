@@ -1,0 +1,4 @@
+<map id="StarLinkWithReverseLink" name="StarLinkWithReverseLink">
+<area shape="rect" id="node2" href="$classStarLink.html" title="This class is a basic element of StarNetwork. It represents a link of the graph. " alt="" coords="30,323,183,650"/>
+<area shape="rect" id="node3" href="$classLinkFnc.html" title="Abstract class used to represent link cost function. " alt="" coords="5,5,208,259"/>
+</map>

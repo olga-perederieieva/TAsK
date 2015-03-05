@@ -1,0 +1,4 @@
+<map id="AstarWithoutZoneSkip" name="AstarWithoutZoneSkip">
+<area shape="rect" id="node2" href="$classAstar.html" title="This class implements A* shortest path for point&#45;to&#45;point case, and Dijkstra for origin case..." alt="" coords="5,219,203,560"/>
+<area shape="rect" id="node3" href="$classShortestPath.html" title="This is an abstract class that defines the interface for single&#45;objective shortest&#45;path algorithms..." alt="" coords="39,5,168,171"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="LinkFlowsBFW" name="LinkFlowsBFW">
+<area shape="rect" id="node2" href="$classLinkFlowsCFW.html" title="This class implements conjugate Frank&#45;Wolf algorithm. " alt="" coords="6,581,151,717"/>
+<area shape="rect" id="node3" href="$classLinkFlows.html" title="This class implements basic operations needed for link&#45;based algorithms and Frank&#45;Wolfe algorithm..." alt="" coords="5,177,152,533"/>
+<area shape="rect" id="node4" href="$classInitialiseSolution.html" title="Abstract class that defines methods to initialise different container objects used in equilibration a..." alt="" coords="6,6,151,127"/>
+</map>

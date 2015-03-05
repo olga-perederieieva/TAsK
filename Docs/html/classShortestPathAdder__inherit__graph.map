@@ -1,0 +1,4 @@
+<map id="ShortestPathAdder" name="ShortestPathAdder">
+<area shape="rect" id="node2" href="$classCurrentPathsAdder.html" title="Implements addition of known paths techniques for the case of adding all paths from the set of paths..." alt="" coords="5,160,165,296"/>
+<area shape="rect" id="node3" href="$classPathsAdder.html" title="Base class for the addition of known path speed&#45;up technique for bi&#45;objective label&#45;setting algorithm..." alt="" coords="26,5,144,112"/>
+</map>

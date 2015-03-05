@@ -1,0 +1,13 @@
+<map id="DecoratedEqAlgo" name="DecoratedEqAlgo">
+<area shape="rect" id="node2" href="$classAlgoDecoratorBase.html" title="Base class for algorithm decorators. Defines common methods for derived classes. " alt="" coords="178,271,341,422"/>
+<area shape="rect" id="node5" href="$classEqAlgo.html" title="This class is a base class for all traffic assignment algorithms. " alt="" coords="466,205,629,488"/>
+<area shape="rect" id="node3" href="$classAlgoDecorator.html" title="Decorates EqAlgo with writing convergence data previously stored by AddHookStoreOut into file..." alt="" coords="5,551,139,687"/>
+<area shape="rect" id="node4" href="$classAlgoDecoratorWriteLinks.html" title="This class decorates EqAlgo with writing link flows to the file. " alt="" coords="163,551,357,687"/>
+<area shape="rect" id="node6" href="$classFWAlgo.html" title="This class implements main steps of the framework for link&#45;based algorithms. " alt="" coords="382,551,535,687"/>
+<area shape="rect" id="node7" href="$classOriginBasedAlgo.html" title="This class implements main steps of the framework for origin&#45;based algorithms. " alt="" coords="560,543,713,694"/>
+<area shape="rect" id="node11" href="$classPathBasedAlgo.html" title="This class implements framework for path&#45;based algorithms. " alt="" coords="749,536,901,701"/>
+<area shape="rect" id="node8" href="$classOriginBasedAlgoEQII.html" title="This class implements equilibration II strategy for origin&#45;based algorithms. " alt="" coords="347,749,521,856"/>
+<area shape="rect" id="node9" href="$classOriginBasedAlgoTapas.html" title="This class extends OriginBasedAlgo by adding functionality required by TAPAS. " alt="" coords="546,749,728,856"/>
+<area shape="rect" id="node10" href="$classOriginBasedAlgoTapasEqII.html" title="Implements Equilibration II for TAPAS. " alt="" coords="534,904,740,1011"/>
+<area shape="rect" id="node12" href="$classPathBasedAlgoEqII.html" title="This class implements Equilibration II for path&#45;based algorithms. " alt="" coords="753,749,916,856"/>
+</map>

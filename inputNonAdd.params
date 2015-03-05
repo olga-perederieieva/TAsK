@@ -1,0 +1,52 @@
+/***********Example file with parameters
+  Solve the non-additive traffic assignment problem on the SiouxFalls instance
+  with the path equilibration algorithm based on Newton step and non-additive
+  shortest path with all speed up techniques enabled.
+*/ 
+
+<NETWORK>: {Data/SiouxFalls_tolls.txt}
+<OD_MATRIX>: {Data/SiouxFalls_trips.txt} 
+
+<WRITE_RND_TOLLS_TO_FILE>: {}
+<RND_TOLLS_PROBABILITY>: {};
+<RND_TOLLS_MAX_TOLL>: {};
+
+<INDIFF_CURVE_TYPE>: {PiecewiseLinear}
+<INDIFF_CURVE>: {Curves/SiouxFalls_tolls.curves}
+<MAX_NB_POINTS_PER_CURVE>: {}
+<MAX_TOLL> : {}
+<MAX_TIME> : {}
+<NODES>: {} 
+<TIME_LIMIT> : {20000} // in seconds
+<ShPathAlgo> : {NonAdd} 
+<UseP2PShPathWithRandomReturn>: {} 
+<FIXED_PROBABILITY>: {}
+<CONV_MEASURE>: {MAX_DIFF} 
+<PRECISION>: {1e-5} 
+<ZERO_FLOW>: {1e-10}
+<DIR_TOLERANCE>: {1e-10} 
+<ALGORITHM>: {PE} 
+		 	<LINE_SEARCH>: {} 
+				<LS_PRECISION>: {} 
+				<ARMIJO_DEC>: {} 
+			<EQUILIBRATION>: {EQI} 
+			<MAX_ITER>: {} 
+			<APPROACH>: {APP3} 
+			<ALPHA>: {0.25} 
+			<SLOPE>: {1e-15} 
+			<ISP_SCALE>: {0.15} 
+			<NEWTON_STEPS>: {SINGLE}
+			<MU>: {0.5} 
+			<V>: {0.25}
+		
+<BIOBJ_SHPATH_P2P>: {BiLabelSetting} 
+<BLS_BOUNDS> : {zeroFlow} 
+<USE_EXISTING_PATHS> : {onePath}
+<USE_PATH_COST_DOMINATION> : {yes}
+
+<SHOW_CONVERGENCE>: {yes} 
+<LINK_FLOWS>: {}
+<CONVERGENCE>: {}
+<PATH_SET>: {}
+<LATEX_OUTPUT>: {}
+	

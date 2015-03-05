@@ -1,0 +1,4 @@
+<map id="BoundsCalculatorWithTimeUpdate" name="BoundsCalculatorWithTimeUpdate">
+<area shape="rect" id="node2" href="$classBoundsCalculatorForBSP.html" title="Implements travel time bound calculation based on zero flows. " alt="" coords="21,206,219,474"/>
+<area shape="rect" id="node3" href="$classBoundsCalculatorForBSPBase.html" title="Defines interface for other bounds calculator, implements the case when no bounds are calculated..." alt="" coords="5,6,235,157"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classAddHook.html" title="A base class that is used in EqAlgo class to perform some operations with convergence information ava..." alt="" coords="6,31,82,57"/>
+<area shape="rect" id="node2" href="$classAddHookScreenOut.html" title="This class is designed to print convergence information on the screen after each iteration of the alg..." alt="" coords="131,5,269,32"/>
+<area shape="rect" id="node4" href="$classAddHookStoreOut.html" title="This class stores convergence information into internal data structure and is able to print it to the..." alt="" coords="136,56,264,83"/>
+<area shape="rect" id="node3" href="$classAddHookScreenAndStore.html" title="This class is designed to show convergence information on screen and store it in order to print to fi..." alt="" coords="317,31,488,57"/>
+</map>

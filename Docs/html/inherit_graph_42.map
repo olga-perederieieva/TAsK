@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classPASManager.html" title="This class is a container of PASs and it implements major operations related to their management..." alt="" coords="5,5,104,32"/>
+<area shape="rect" id="node2" href="$classPASManagerWithStep.html" title="This class extends PASManager to allow use of line searches for flow shift calculation. " alt="" coords="153,5,306,32"/>
+</map>

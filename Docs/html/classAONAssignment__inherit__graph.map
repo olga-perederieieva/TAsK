@@ -1,0 +1,5 @@
+<map id="AONAssignment" name="AONAssignment">
+<area shape="rect" id="node2" href="$classAONBushBased.html" title="All&#45;or&#45;nothing assignment for bush&#45;based algorithms. " alt="" coords="5,197,211,304"/>
+<area shape="rect" id="node3" href="$classAONUsual.html" title="Implements basic all&#45;or&#45;nothing procedure for a given origin node. " alt="" coords="235,190,439,311"/>
+<area shape="rect" id="node4" href="$classAONNonAdditive.html" title="All&#45;or&#45;nothing procedure for non&#45;additive case. " alt="" coords="258,360,416,467"/>
+</map>

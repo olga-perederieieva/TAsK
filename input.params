@@ -1,0 +1,53 @@
+/***********Example file with parameters
+  Solve the additive traffic assignment problem on the SiouxFalls instance
+  with the algorithm B based on quadratic approximation.
+*/
+
+<NETWORK>: {Data/SiouxFalls_net.txt}
+<OD_MATRIX>: {Data/SiouxFalls_trips.txt}
+
+<WRITE_RND_TOLLS_TO_FILE>: {}
+<RND_TOLLS_PROBABILITY>: {}
+<RND_TOLLS_MAX_TOLL>: {}
+
+<INDIFF_CURVE_TYPE>: {}
+<INDIFF_CURVE>: {}
+
+<MAX_NB_POINTS_PER_CURVE>: {}
+<MAX_TOLL> : {}
+<MAX_TIME> : {}
+<NODES>: {} 
+
+<TIME_LIMIT> : {20000} // in seconds
+<ShPathAlgo> : {LC} 
+<UseP2PShPathWithRandomReturn>: {} 
+<FIXED_PROBABILITY>: {}
+<CONV_MEASURE>: {RGAP}
+<PRECISION>: {1e-14} 
+<ZERO_FLOW>: {1e-15}
+<DIR_TOLERANCE>: {1e-15} 
+<ALGORITHM>: {Bstep}
+		 	<LINE_SEARCH>: {QUAD_APP} 
+				<LS_PRECISION>: {1e-15} 
+				<ARMIJO_DEC>: {2} 
+			<EQUILIBRATION>: {EQI} 
+			<MAX_ITER>: {0} 
+			<APPROACH>: {APP1} 
+			<ALPHA>: {0} 
+			<SLOPE>: {0.1} 
+			<ISP_SCALE>: {0.1} 
+			<NEWTON_STEPS>: {} 
+			<MU>: {} 
+			<V>: {}
+		
+<BIOBJ_SHPATH_P2P>: {} 
+<BLS_BOUNDS> : {}
+<USE_EXISTING_PATHS> : {} 
+<USE_PATH_COST_DOMINATION> : {} 
+
+<SHOW_CONVERGENCE>: {yes}
+
+<LINK_FLOWS>: {} 
+<CONVERGENCE>: {}
+<PATH_SET>: {}
+<LATEX_OUTPUT>: {}

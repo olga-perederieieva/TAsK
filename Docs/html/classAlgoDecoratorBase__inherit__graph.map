@@ -1,0 +1,5 @@
+<map id="AlgoDecoratorBase" name="AlgoDecoratorBase">
+<area shape="rect" id="node3" href="$classAlgoDecorator.html" title="Decorates EqAlgo with writing convergence data previously stored by AddHookStoreOut into file..." alt="" coords="5,405,139,541"/>
+<area shape="rect" id="node4" href="$classAlgoDecoratorWriteLinks.html" title="This class decorates EqAlgo with writing link flows to the file. " alt="" coords="163,405,357,541"/>
+<area shape="rect" id="node2" href="$classDecoratedEqAlgo.html" title="This class is a base class for decorators of EqAlgo. " alt="" coords="83,6,247,157"/>
+</map>

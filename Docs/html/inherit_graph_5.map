@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classBoundsCalculatorForBSPBase.html" title="Defines interface for other bounds calculator, implements the case when no bounds are calculated..." alt="" coords="6,35,207,61"/>
+<area shape="rect" id="node2" href="$classBoundsCalculatorForBSP.html" title="Implements travel time bound calculation based on zero flows. " alt="" coords="256,35,427,61"/>
+<area shape="rect" id="node3" href="$classBoundsCalculatorForBackwardNet.html" title="Implements travel time and toll bound calculation for reversed network. " alt="" coords="475,5,698,32"/>
+<area shape="rect" id="node4" href="$classBoundsCalculatorWithTimeUpdate.html" title="Implements travel time bounds based on current flows. " alt="" coords="496,57,677,98"/>
+</map>

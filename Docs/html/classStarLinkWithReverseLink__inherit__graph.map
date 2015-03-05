@@ -1,0 +1,4 @@
+<map id="StarLinkWithReverseLink" name="StarLinkWithReverseLink">
+<area shape="rect" id="node3" href="$classStarLinkWithTolls.html" title="Implements a special type of link that instead of travel time returns constant link toll..." alt="" coords="27,565,180,672"/>
+<area shape="rect" id="node2" href="$classStarLink.html" title="This class is a basic element of StarNetwork. It represents a link of the graph. " alt="" coords="27,5,180,347"/>
+</map>

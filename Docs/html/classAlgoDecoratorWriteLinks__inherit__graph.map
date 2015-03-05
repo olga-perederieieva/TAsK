@@ -1,0 +1,4 @@
+<map id="AlgoDecoratorWriteLinks" name="AlgoDecoratorWriteLinks">
+<area shape="rect" id="node2" href="$classAlgoDecoratorBase.html" title="Base class for algorithm decorators. Defines common methods for derived classes. " alt="" coords="21,206,184,357"/>
+<area shape="rect" id="node3" href="$classDecoratedEqAlgo.html" title="This class is a base class for decorators of EqAlgo. " alt="" coords="21,6,184,157"/>
+</map>

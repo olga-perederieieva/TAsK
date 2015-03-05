@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classIndiffCurveContainer.html" title="This class is a container of scalarization functions. It is responsible for their deallocation..." alt="" coords="6,77,149,104"/>
+<area shape="rect" id="node2" href="$classIndiffCurveContainerConcaveCurve.html" title="Container of concave scalarization functions. " alt="" coords="197,5,392,46"/>
+<area shape="rect" id="node3" href="$classIndiffCurveContainerConvexCurve.html" title="Container of concex scalarization functions. " alt="" coords="201,70,388,111"/>
+<area shape="rect" id="node4" href="$classIndiffCurveContainerLinearCurve.html" title="Container of linear scalarization functions. " alt="" coords="206,135,383,177"/>
+</map>

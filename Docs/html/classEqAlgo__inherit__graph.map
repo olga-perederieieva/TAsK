@@ -1,0 +1,10 @@
+<map id="EqAlgo" name="EqAlgo">
+<area shape="rect" id="node3" href="$classFWAlgo.html" title="This class implements main steps of the framework for link&#45;based algorithms. " alt="" coords="39,551,192,687"/>
+<area shape="rect" id="node4" href="$classOriginBasedAlgo.html" title="This class implements main steps of the framework for origin&#45;based algorithms. " alt="" coords="217,543,371,694"/>
+<area shape="rect" id="node8" href="$classPathBasedAlgo.html" title="This class implements framework for path&#45;based algorithms. " alt="" coords="406,536,559,701"/>
+<area shape="rect" id="node2" href="$classDecoratedEqAlgo.html" title="This class is a base class for decorators of EqAlgo. " alt="" coords="213,6,376,157"/>
+<area shape="rect" id="node5" href="$classOriginBasedAlgoEQII.html" title="This class implements equilibration II strategy for origin&#45;based algorithms. " alt="" coords="5,749,179,856"/>
+<area shape="rect" id="node6" href="$classOriginBasedAlgoTapas.html" title="This class extends OriginBasedAlgo by adding functionality required by TAPAS. " alt="" coords="203,749,385,856"/>
+<area shape="rect" id="node7" href="$classOriginBasedAlgoTapasEqII.html" title="Implements Equilibration II for TAPAS. " alt="" coords="191,904,397,1011"/>
+<area shape="rect" id="node9" href="$classPathBasedAlgoEqII.html" title="This class implements Equilibration II for path&#45;based algorithms. " alt="" coords="410,749,573,856"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classLinkFnc.html" title="Abstract class used to represent link cost function. " alt="" coords="6,56,74,83"/>
+<area shape="rect" id="node2" href="$classBprFnc.html" title="This class implements BPR link cost function. " alt="" coords="131,5,195,32"/>
+<area shape="rect" id="node3" href="$classConstFnc.html" title="This class implements constant link cost function. " alt="" coords="123,56,202,83"/>
+<area shape="rect" id="node4" href="$classLinearFnc.html" title="This class implements linear link cost function. " alt="" coords="123,107,202,133"/>
+</map>

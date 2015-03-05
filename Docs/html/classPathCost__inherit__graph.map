@@ -1,0 +1,4 @@
+<map id="PathCost" name="PathCost">
+<area shape="rect" id="node2" href="$classAdditivePC.html" title="Additive path cost &#45; sum of the costs of the links belonging to a given path. " alt="" coords="5,183,120,289"/>
+<area shape="rect" id="node3" href="$classNonAdditivePC.html" title="This class implements non&#45;additive path cost calculation. " alt="" coords="145,161,284,311"/>
+</map>

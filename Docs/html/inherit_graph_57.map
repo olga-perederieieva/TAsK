@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classStepSize.html" title="This class is used in path&#45;based algorithms that use a line search in order to calculate a step size..." alt="" coords="5,5,80,32"/>
+<area shape="rect" id="node2" href="$classStepSizeAdd.html" title="This class implements step size calculation in the case when additive path cost function is used..." alt="" coords="128,5,227,32"/>
+</map>
