@@ -2,12 +2,12 @@
 
 The TAsK software implements several algorithms for solving the deterministic static traffic 
  	assignment problem with fixed demands, and the non-additive traffic 
- 	assignment model. 
+ 	assignment problem. 
 
 All code is implemented in the C++ programming language.
 This is open-source software distributed under the MIT license.
 
-The software was tested only on Ubuntu (12.10, 13.10 and 14.04) operating system.
+The software was tested only on the Ubuntu (12.10, 13.10 and 14.04) operating system.
 
 **Authors**
 - <a href = http://www.des.auckland.ac.nz/people/o-perederieieva>Olga Perederieieva</a>
@@ -177,14 +177,14 @@ Time limit of algorithm execution in seconds.
 Shortest path algorithm.
 Possible values:
 	- LC - single-source label-setting algorithm. If this option is chosen
- 			 along with path-based algorithm, then single-source label-setting
+ 			 along with a path-based algorithm, then single-source label-setting
  			 will be used for point-to-point shortest path calculations
  			 which is much slower than A*. 
  			 Works only for additive traffic
  			 assignment. If one tries to choose this option for non-additive 
  			 traffic assignment, then the program will terminate with failed assertion.
   - Astar - A* point-to-point algorithm. If this option is specified,
- 			A* will be used for path-based algorithm, and one-source
+ 			A* will be used for path-based algorithms, and one-source
    			Dijkstra's algorithm for convergence measure. 
    			If this option is specified along with a link- or bush-based algorithm,
    			then for all one-source shortest path calculations Dijkstra's algorithm
@@ -210,14 +210,14 @@ Possible values:
 
 ```<UseP2PShPathWithRandomReturn>: {} ```
 
-If any non-empty value is specified, then randomised flow update strategy is used 
+If any non-empty value is specified, then the randomised flow update strategy is used 
 where probability of calculating a point-to-point shortest path depends on the iteration number.
 This option works only with path-based algorithms and is ignored if an algorithm 
 from a different group is used.
 
 ```<FIXED_PROBABILITY>: {}```
 
-Probability of calculating a point-to-point shortest path. Possible values: any real number in 
+Probability of calculating a point-to-point shortest path. Possible values: any real number in the
 interval (0, 1]. This option is ignored if field <UseP2PShPathWithRandomReturn> has
 empty value.
 
@@ -267,7 +267,7 @@ Possible values:
 			based on  a line search.
 .
 
-**Warning:** In the case of non-additive traffic assignment only PE and GP options are available with 
+**Warning:** In the case of non-additive traffic assignment only PE and GP options are available with the 
 <APPROACH> set to {APP3}.
 
 ```<LINE_SEARCH>: {BISEC}.```
@@ -331,7 +331,8 @@ This value must be set to a positive number even if improved social pressure is 
 			
 ```<ISP_SCALE>: {0.15}```
 
-Another parameter of parameter the improved social pressure algorithm.
+The parameter of the improved social pressure algorithm that is used to divide all paths
+into two sets.
 This value must be set to a positive number even if improved social pressure is not used.
 
 ```<NEWTON_STEPS>: {SINGLE}```
@@ -383,24 +384,24 @@ If the value of this field is not empty, prints convergence on the screen.
 ```<LINK_FLOWS>: {}```
 
 Path to file where link flows must be written. If the field is empty, no file will be created.
-If the field is set to AUTO, automatically generated name will be used.
+If the field is set to AUTO, an automatically generated name will be used.
 
 ```<CONVERGENCE>: {}```
 
 Path to file where convergence must be written.  If the field is empty, no file will be created.
-If the field is set to AUTO, automatically generated name will be used.
+If the field is set to AUTO, an automatically generated name will be used.
 
 ```<PATH_SET>: {}```
 
 Path to file where path sets must be written. Applicable only to path-based algorithms.
 If the field is empty, no file will be created.
-If the field is set to AUTO, automatically generated name will be used.
+If the field is set to AUTO, an automatically generated name will be used.
 
 ```<LATEX_OUTPUT>: {net.tex}```
 
 Path to file where latex output must be written. If this field is specified, then
 field <NODES> must be specified too.  If the field is empty, no file will be created.
-If the field is set to AUTO, automatically generated name will be used.
+If the field is set to AUTO, an automatically generated name will be used.
 
 **Note:** For KML output one has to modify main.cpp and use classes
 KMLNetOutput, KMLSelectLink, KMLPlotTolls and DiffKMLNetOutput.
