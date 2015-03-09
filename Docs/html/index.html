@@ -87,9 +87,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">Traffic Assignment frameworK (TAsK) </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>The TAsK software implements several algorithms for solving the deterministic static traffic assignment problem with fixed demands, see <a class="el" href="citelist.html#CITEREF_Sheffi1985">[19]</a>, and the non-additive traffic assignment model, see <a class="el" href="citelist.html#CITEREF_Larsson2004">[14]</a>.</p>
+<div class="textblock"><p>The TAsK software implements several algorithms for solving the deterministic static traffic assignment problem with fixed demands, see <a class="el" href="citelist.html#CITEREF_Sheffi1985">[19]</a>, and the non-additive traffic assignment problem, see <a class="el" href="citelist.html#CITEREF_Larsson2004">[14]</a>.</p>
 <p>All code is implemented in the C++ programming language. This is open-source software distributed under the MIT license.</p>
-<p>The software was tested only on Ubuntu (12.10, 13.10 and 14.04) operating system.</p>
+<p>The software was tested only on the Ubuntu (12.10, 13.10 and 14.04) operating system.</p>
 <dl class="section author"><dt>Author</dt><dd><a href="http://www.des.auckland.ac.nz/people/o-perederieieva">Olga Perederieieva</a> </dd>
 <dd>
 <a href="https://github.com/Boshen">Boshen Chen</a> (A* star shortest path algorithm) </dd>
@@ -177,17 +177,17 @@ Benoit Mulocher (bi-directional bi-objective label-setting algorithm)</dd></dl>
 </div><!-- fragment --><p> Time limit of algorithm execution in seconds.</p>
 <div class="fragment"><div class="line">&lt;ShPathAlgo&gt; : {LC}</div>
 </div><!-- fragment --><p> Shortest path algorithm. Possible values:</p><ul>
-<li>LC - single-source label-setting algorithm. If this option is chosen along with path-based algorithm, then single-source label-setting will be used for point-to-point shortest path calculations which is much slower than A*. Works only for additive traffic assignment. If one tries to choose this option for non-additive traffic assignment, then the program will terminate with failed assertion.</li>
-<li>Astar - A* point-to-point algorithm. If this option is specified, A* will be used for path-based algorithm, and one-source Dijkstra's algorithm for convergence measure. If this option is specified along with a link- or bush-based algorithm, then for all one-source shortest path calculations Dijkstra's algorithm will be used. Works only for additive traffic assignment. If one tries to choose this option for non-additive traffic assignment, then the program will terminate with failed assertion. <dl class="section warning"><dt>Warning</dt><dd>Astar option does not work with TAPAS. Never use them together.</dd></dl>
+<li>LC - single-source label-setting algorithm. If this option is chosen along with a path-based algorithm, then single-source label-setting will be used for point-to-point shortest path calculations which is much slower than A*. Works only for additive traffic assignment. If one tries to choose this option for non-additive traffic assignment, then the program will terminate with failed assertion.</li>
+<li>Astar - A* point-to-point algorithm. If this option is specified, A* will be used for path-based algorithms, and one-source Dijkstra's algorithm for convergence measure. If this option is specified along with a link- or bush-based algorithm, then for all one-source shortest path calculations Dijkstra's algorithm will be used. Works only for additive traffic assignment. If one tries to choose this option for non-additive traffic assignment, then the program will terminate with failed assertion. <dl class="section warning"><dt>Warning</dt><dd>Astar option does not work with TAPAS. Never use them together.</dd></dl>
 </li>
 <li>NonAdd - non-additive shortest path. Works only for non-additive traffic assignment. If one tries to choose this option for additive traffic assignment, then the program will terminate with failed assertion.</li>
 <li>LazyNonAdd - lazy non-additive shortest path, see <a class="el" href="citelist.html#CITEREF_Chen1998">[3]</a>. Works only for non-additive traffic assignment. If one tries to choose this option for additive traffic assignment, then the program will terminate with failed assertion.</li>
 <li>LazySP - lazy additive shortest path, see <a class="el" href="citelist.html#CITEREF_Chen1998">[3]</a>. Works only for additive traffic assignment. If one tries to choose this option for non-additive traffic assignment, then the program will terminate with failed assertion.</li>
 </ul>
 <div class="fragment"><div class="line">&lt;UseP2PShPathWithRandomReturn&gt;: {} </div>
-</div><!-- fragment --><p> If any non-empty value is specified, then randomised flow update strategy is used where probability of calculating a point-to-point shortest path depends on the iteration number. This option works only with path-based algorithms and is ignored if an algorithm from a different group is used.</p>
+</div><!-- fragment --><p> If any non-empty value is specified, then the randomised flow update strategy is used where probability of calculating a point-to-point shortest path depends on the iteration number. This option works only with path-based algorithms and is ignored if an algorithm from a different group is used.</p>
 <div class="fragment"><div class="line">&lt;FIXED_PROBABILITY&gt;: {}</div>
-</div><!-- fragment --><p> Probability of calculating a point-to-point shortest path. Possible values: any real number in interval (0, 1]. This option is ignored if field &lt;UseP2PShPathWithRandomReturn&gt; has empty value.</p>
+</div><!-- fragment --><p> Probability of calculating a point-to-point shortest path. Possible values: any real number in the interval (0, 1]. This option is ignored if field &lt;UseP2PShPathWithRandomReturn&gt; has empty value.</p>
 <div class="fragment"><div class="line">&lt;CONV_MEASURE&gt;: {MAX_DIFF} </div>
 </div><!-- fragment --><p> Convergence measure. Possible values:</p><ul>
 <li>RGAP - relative gap. This option works for additive traffic assignment only.</li>
@@ -214,7 +214,7 @@ Benoit Mulocher (bi-directional bi-objective label-setting algorithm)</dd></dl>
 <li>TAPAS - traffic assignment by paired alternative segments based on Newton step, see <a class="el" href="citelist.html#CITEREF_Hillel2010">[1]</a>.</li>
 <li>TAPASstep - traffic assignment by paired alternative segments based on a line search, see <a class="el" href="citelist.html#CITEREF_Hillel2010">[1]</a>.</li>
 </ul>
-<dl class="section warning"><dt>Warning</dt><dd>In the case of non-additive traffic assignment only PE and GP options are available with &lt;APPROACH&gt; set to {APP3}.</dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>In the case of non-additive traffic assignment only the PE and GP options are available with &lt;APPROACH&gt; set to {APP3}.</dd></dl>
 <div class="fragment"><div class="line">&lt;LINE_SEARCH&gt;: {BISEC}.</div>
 </div><!-- fragment --><p> Line search. This field is used only for algorithms based on line search. If a different algorithm is specified, this field is ignored. Possible values:</p><ul>
 <li>BISEC - bisection.</li>
@@ -222,7 +222,7 @@ Benoit Mulocher (bi-directional bi-objective label-setting algorithm)</dd></dl>
 <li>QUAD_APP - quadratic approximation.</li>
 </ul>
 <div class="fragment"><div class="line">&lt;LS_PRECISION&gt;: {1e-15}</div>
-</div><!-- fragment --><p> Line search tolerance. This field is used only if one of the line searcher is used.</p>
+</div><!-- fragment --><p> Line search tolerance. This field is used only if one of the line search methods is used.</p>
 <div class="fragment"><div class="line">&lt;ARMIJO_DEC&gt;: {2}</div>
 </div><!-- fragment --><p> Decrement in Armijo-like rule. This option is applicable only if &lt;LINE_SEARCH&gt;: {ARMIJO}.</p>
 <div class="fragment"><div class="line">&lt;EQUILIBRATION&gt;: {EQI}</div>
@@ -259,7 +259,7 @@ Benoit Mulocher (bi-directional bi-objective label-setting algorithm)</dd></dl>
 <div class="fragment"><div class="line">&lt;SLOPE&gt;: {1e-15}</div>
 </div><!-- fragment --><p> Minimum slope of the derivative of link cost function used in improved social pressure. This value must be set to a positive number even if improved social pressure is not used.</p>
 <div class="fragment"><div class="line">&lt;ISP_SCALE&gt;: {0.15}</div>
-</div><!-- fragment --><p> Another parameter of parameter the improved social pressure algorithm. This value must be set to a positive number even if improved social pressure is not used.</p>
+</div><!-- fragment --><p> The parameter of the improved social pressure algorithm that is used to divide all paths into two sets, for details see <a class="el" href="citelist.html#CITEREF_Kumar2011">[13]</a>. This value must be set to a positive number even if improved social pressure is not used.</p>
 <div class="fragment"><div class="line">&lt;NEWTON_STEPS&gt;: {SINGLE}</div>
 </div><!-- fragment --><p> Type of Newton step for Algorithm B and TAPAS. Possible values:</p><ul>
 <li>SINGLE - performs one Newton step.</li>
@@ -289,13 +289,13 @@ Benoit Mulocher (bi-directional bi-objective label-setting algorithm)</dd></dl>
 <div class="fragment"><div class="line">&lt;SHOW_CONVERGENCE&gt;: {yes}</div>
 </div><!-- fragment --><p> If the value of this field is not empty, prints convergence on the screen.</p>
 <div class="fragment"><div class="line">&lt;LINK_FLOWS&gt;: {}</div>
-</div><!-- fragment --><p> Path to file where link flows must be written. If the field is empty, no file will be created. If the field is set to AUTO, automatically generated name will be used.</p>
+</div><!-- fragment --><p> Path to file where link flows must be written. If the field is empty, no file will be created. If the field is set to AUTO, an automatically generated name will be used.</p>
 <div class="fragment"><div class="line">&lt;CONVERGENCE&gt;: {}</div>
-</div><!-- fragment --><p> Path to file where convergence must be written. If the field is empty, no file will be created. If the field is set to AUTO, automatically generated name will be used.</p>
+</div><!-- fragment --><p> Path to file where convergence must be written. If the field is empty, no file will be created. If the field is set to AUTO, an automatically generated name will be used.</p>
 <div class="fragment"><div class="line">&lt;PATH_SET&gt;: {}</div>
-</div><!-- fragment --><p> Path to file where path sets must be written. Applicable only to path-based algorithms. If the field is empty, no file will be created. If the field is set to AUTO, automatically generated name will be used.</p>
+</div><!-- fragment --><p> Path to file where path sets must be written. Applicable only to path-based algorithms. If the field is empty, no file will be created. If the field is set to AUTO, an automatically generated name will be used.</p>
 <div class="fragment"><div class="line">&lt;LATEX_OUTPUT&gt;: {net.tex}</div>
-</div><!-- fragment --><p>Path to file where latex output must be written. If this field is specified, then field &lt;NODES&gt; must be specified too. If the field is empty, no file will be created. If the field is set to AUTO, automatically generated name will be used.</p>
+</div><!-- fragment --><p>Path to file where latex output must be written. If this field is specified, then field &lt;NODES&gt; must be specified too. If the field is empty, no file will be created. If the field is set to AUTO, an automatically generated name will be used.</p>
 <dl class="section note"><dt>Note</dt><dd>For KML output one has to modify main.cpp and use classes <a class="el" href="classKMLNetOutput.html" title="KML for network performance analysis (colour-coded based on the ratio flow/capacity) ...">KMLNetOutput</a>, <a class="el" href="classKMLSelectLink.html" title="Implements creation of kml-files for select link analysis. ">KMLSelectLink</a>, <a class="el" href="classKMLPlotTolls.html" title="This class creates kml-file where tolled links are highlighted in red. ">KMLPlotTolls</a> and <a class="el" href="classDiffKMLNetOutput.html" title="This class implements KML files that describe link flow differences between solutions (usually two so...">DiffKMLNetOutput</a>.</dd></dl>
 <h2>Existing problems of the current implementation</h2>
 <ul>
@@ -313,7 +313,7 @@ Benoit Mulocher (bi-directional bi-objective label-setting algorithm)</dd></dl>
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Mar 5 2015 16:54:34 for Traffic Assignment frameworK (TAsK) by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 10 2015 10:23:16 for Traffic Assignment frameworK (TAsK) by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>

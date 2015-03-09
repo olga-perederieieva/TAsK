@@ -3,12 +3,12 @@
 
  	The TAsK software implements several algorithms for solving the deterministic static traffic 
  	assignment problem with fixed demands, see \cite Sheffi1985, and the non-additive traffic 
- 	assignment model, see \cite Larsson2004. 
+ 	assignment problem, see \cite Larsson2004. 
 
  	All code is implemented in the C++ programming language.
  	This is open-source software distributed under the MIT license.
 
- 	The software was tested only on Ubuntu (12.10, 13.10 and 14.04) operating system.
+ 	The software was tested only on the Ubuntu (12.10, 13.10 and 14.04) operating system.
 
  	\author <a href = http://www.des.auckland.ac.nz/people/o-perederieieva>Olga Perederieieva</a>
 	\author <a href = https://github.com/Boshen>Boshen Chen</a> (A* star shortest path algorithm)
@@ -184,14 +184,14 @@
 	Shortest path algorithm.
     Possible values:
     	- LC - single-source label-setting algorithm. If this option is chosen
-	   			 along with path-based algorithm, then single-source label-setting
+	   			 along with a path-based algorithm, then single-source label-setting
 	   			 will be used for point-to-point shortest path calculations
 	   			 which is much slower than A*. 
 	   			 Works only for additive traffic
 	   			 assignment. If one tries to choose this option for non-additive 
 	   			 traffic assignment, then the program will terminate with failed assertion.
 	    - %Astar - A* point-to-point algorithm. If this option is specified,
-	   			A* will be used for path-based algorithm, and one-source
+	   			A* will be used for path-based algorithms, and one-source
 	     			Dijkstra's algorithm for convergence measure. 
 	     			If this option is specified along with a link- or bush-based algorithm,
 	     			then for all one-source shortest path calculations Dijkstra's algorithm
@@ -217,7 +217,7 @@
 	\code{.cpp}
 	<UseP2PShPathWithRandomReturn>: {} 
 	\endcode
-	If any non-empty value is specified, then randomised flow update strategy is used 
+	If any non-empty value is specified, then the randomised flow update strategy is used 
 	where probability of calculating a point-to-point shortest path depends on the iteration number.
 	This option works only with path-based algorithms and is ignored if an algorithm 
 	from a different group is used.
@@ -225,7 +225,7 @@
 	\code{.cpp}
 	<FIXED_PROBABILITY>: {}
 	\endcode
-	Probability of calculating a point-to-point shortest path. Possible values: any real number in 
+	Probability of calculating a point-to-point shortest path. Possible values: any real number in the
 	interval (0, 1]. This option is ignored if field <UseP2PShPathWithRandomReturn> has
 	empty value.
 
@@ -280,8 +280,8 @@
 		- TAPASstep - traffic assignment by paired alternative segments 
 					based on  a line search, see \cite Hillel2010.
 	.
-	\warning In the case of non-additive traffic assignment only PE and GP options are available with 
-	<APPROACH> set to {APP3}.
+	\warning In the case of non-additive traffic assignment only the PE and GP options are 
+	available with <APPROACH> set to {APP3}.
 	
 	\code{.cpp}
  	<LINE_SEARCH>: {BISEC}.
@@ -296,7 +296,7 @@
  	\code{.cpp}
 	<LS_PRECISION>: {1e-15}
 	\endcode
-	Line search tolerance. This field is used only if one of the line searcher is used.
+	Line search tolerance. This field is used only if one of the line search methods is used.
 
 	\code{.cpp}
 	<ARMIJO_DEC>: {2}
@@ -353,7 +353,8 @@
 	\code{.cpp}
 	<ISP_SCALE>: {0.15}
 	\endcode
-	Another parameter of parameter the improved social pressure algorithm.
+	The parameter of the improved social pressure algorithm that is used to divide all paths
+	into two sets, for details see \cite Kumar2011.
 	This value must be set to a positive number even if improved social pressure is not used.
 
 	\code{.cpp}
@@ -415,20 +416,20 @@
 	<LINK_FLOWS>: {}
 	\endcode
 	%Path to file where link flows must be written. If the field is empty, no file will be created.
-	If the field is set to AUTO, automatically generated name will be used.
+	If the field is set to AUTO, an automatically generated name will be used.
 
 	\code{.cpp}
 	<CONVERGENCE>: {}
 	\endcode
 	%Path to file where convergence must be written.  If the field is empty, no file will be created.
-	If the field is set to AUTO, automatically generated name will be used.
+	If the field is set to AUTO, an automatically generated name will be used.
 	
 	\code{.cpp}
 	<PATH_SET>: {}
 	\endcode
 	%Path to file where path sets must be written. Applicable only to path-based algorithms.
 	 If the field is empty, no file will be created.
-	If the field is set to AUTO, automatically generated name will be used.
+	If the field is set to AUTO, an automatically generated name will be used.
 	
 	\code{.cpp}
 	<LATEX_OUTPUT>: {net.tex}
@@ -436,7 +437,7 @@
 
 	%Path to file where latex output must be written. If this field is specified, then
 	field <NODES> must be specified too.  If the field is empty, no file will be created.
-	If the field is set to AUTO, automatically generated name will be used.
+	If the field is set to AUTO, an automatically generated name will be used.
 		
 	\note For KML output one has to modify main.cpp and use classes
 	KMLNetOutput, KMLSelectLink, KMLPlotTolls and DiffKMLNetOutput.
