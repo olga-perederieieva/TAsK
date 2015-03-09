@@ -69,7 +69,7 @@ recompile code if necessary by typing in terminal: make clean; make.
 solutions.
 
 ## Documentation
-API documentation can be found in Docs/html/index.html.
+API documentation can be found in vendor/Docs/index.html.
 
 ## Usage
 
