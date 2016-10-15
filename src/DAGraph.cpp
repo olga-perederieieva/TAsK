@@ -349,14 +349,16 @@ bool DAGraph::removeUnusedLinks(const std::list<StarLink*> &links){
 // at the moment No topological order is maintained!
 bool DAGraph::removeUnusedLinks(){
 	bool wasDeleted = false;
-	for(std::list<int>::iterator it = linkIndexes_.begin(); it != linkIndexes_.end(); ++it){
-		if (removeLink(*it)) {
-			it = linkIndexes_.erase(it);
-			wasDeleted = true;
-			--it;
-		}
-	}
-	return wasDeleted;
+	std::list<int>::iterator it = linkIndexes_.begin();
+    while (it != linkIndexes_.end()){
+        if (removeLink(*it)) {
+            it = linkIndexes_.erase(it);
+            wasDeleted = true;
+        } else {
+            ++it;
+        }
+    }
+    return wasDeleted;
 };
 
 std::list<StarLink*> DAGraph::getOutLinksCopy(int nodeIndex) const{

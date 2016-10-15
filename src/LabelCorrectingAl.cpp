@@ -45,7 +45,7 @@ void LabelCorrectingAl::calculate(int originIndex){
 	originIndex_ = originIndex;
 	
 	int sequenceList[nbNodes_ + 1]; // +1 - because we have one additional pointer:
-					// sequenceList[nbNodes_+1] - contains the index of the current 
+					// sequenceList[nbNodes_] - contains the index of the current 
 					// last node in the sequenceList
 	int firstInSequence = -1;
 	sequenceList[0] = -1;
@@ -57,7 +57,7 @@ void LabelCorrectingAl::calculate(int originIndex){
 	nodeList_[originIndex].dist = 0.0;
 	firstInSequence = originIndex; 
 	sequenceList[originIndex] = nbNodes_;
-	sequenceList[nbNodes_ + 1] = originIndex;
+	sequenceList[nbNodes_] = originIndex;
 	
 	int topNode = -1;
 	StarLink *nextLink = NULL;
@@ -86,14 +86,14 @@ void LabelCorrectingAl::calculate(int originIndex){
 						if (sequenceList[nextNodeIndex] == -1) { // nextNode has never been on sequenceList
 							// place nextNode on the bottom of sequenceList
 							sequenceList[nextNodeIndex] = nbNodes_; // nextNode is the last in sequenceList
-							sequenceList[sequenceList[nbNodes_ + 1]] = nextNodeIndex; // previously last node points to nextNode now
-							sequenceList[nbNodes_ + 1] = nextNodeIndex; // last pointer points to nextNodeIndex 
+							sequenceList[sequenceList[nbNodes_]] = nextNodeIndex; // previously last node points to nextNode now
+							sequenceList[nbNodes_] = nextNodeIndex; // last pointer points to nextNodeIndex 
 						} else {
 							// place nextNode after topNode
 							sequenceList[nextNodeIndex] = sequenceList[topNode]; // nextNode now points to the node to which topNode was pointing
 							sequenceList[topNode] = nextNodeIndex; // topNodes now points to nextNode
 							if (sequenceList[nextNodeIndex] == nbNodes_) { // if topNode was the last one
-								sequenceList[nbNodes_ + 1] = nextNodeIndex; // update last pointer
+								sequenceList[nbNodes_] = nextNodeIndex; // update last pointer
 							}				
 						}
 					}
