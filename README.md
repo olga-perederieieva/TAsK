@@ -78,7 +78,7 @@ In order to run the TAsK software one should create a text file with various run
 ### Example data
 
 The archive with source code includes the SiouxFalls data instance from 
-http://www.bgu.ac.il/~bargera/tntp/. This instance can be used for
+https://github.com/bstabler/TransportationNetworks. This instance can be used for
 research purposes only.
 
 ### How to run
