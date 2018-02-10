@@ -54,6 +54,7 @@ speed-up techniques that exploit the traffic assignment structure.
 Requirements:
 - C++ compiler (the software was tested with gcc 4.8.2).
 - Boost library that can be downloaded from http://www.boost.org/.
+- To install Boost on linux, start the terminal and type: $ sudo apt-get install libboost-dev  
 
 Instructions:
 - Download archive with source code.
